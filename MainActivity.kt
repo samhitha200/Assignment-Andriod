@@ -150,7 +150,7 @@ fun RegisterScreen(navController: NavController) {
     }
 }
 
-// Validation Logic
+
 fun validateForm(firstName: String, email: String, password: String): Boolean {
     return firstName.isNotEmpty() && email.contains("@") && password.length >= 6
 }
